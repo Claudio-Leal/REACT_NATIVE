@@ -1,0 +1,53 @@
+{
+  "usuarios": [
+    {
+      "nome": "kallebe",
+      "id": 1,
+      "email": "Kallebe",
+      "password": "123"
+    },
+    {
+      "nome": "Claudinho",
+      "email": "claudiolealti@gmail.com",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "projetos": [
+    {
+      "descricao": "React",
+      "id": 1,
+      "concluido": true
+    },
+    {
+      "descricao": "Java",
+      "id": 2,
+      "concluido": true
+    },
+    {
+      "descricao": "HTML",
+      "concluido": false,
+      "id": 3
+    }
+  ],
+  "tarefas": [
+    {
+      "descricao": "Introdução",
+      "concluido": false,
+      "projetoId": 1,
+      "id": 1
+    },
+    {
+      "descricao": "Desenvolvimento",
+      "concluido": false,
+      "projetoId": 1,
+      "id": 2
+    },
+    {
+      "descricao": "Prova final",
+      "concluido": false,
+      "projetoId": 2,
+      "id": 3
+    }
+  ]
+}
